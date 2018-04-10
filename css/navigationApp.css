@@ -1,0 +1,19 @@
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#map {
+    width: 100%;
+    /* 
+     * 100% of view height (100vh), minus:
+     *  -  Title bar: 56 pixels
+     *  -  Space at bottom: 128 pixels (increase to make more space)
+     */
+    height: calc(100vh - 184px);
+}
+
+.full-width {
+    width: 100%;
+}
